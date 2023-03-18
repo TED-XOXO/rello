@@ -1,0 +1,697 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+.container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(192, 192, 192, 0.3);
+}
+.container .nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.container .nav .logo{
+    font-size: 30px;
+}
+.container .nav .ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.container .nav .ul a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+}
+.container .nav .ul a i{
+    font-size: 20px;
+}
+.container .nav .login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.container .nav .login .log{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.container .nav .login .sign{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding: 10px 30px;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+.container .nav .login .i{
+    display: none;
+}
+.container .section1{
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .section1 h1{
+    text-align: center;
+    font-size: 90px;
+    padding: 30px 20%;
+    font-weight: 400;
+    line-height: 130%;
+}
+.container .section1 h1 .a1{
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    cursor: text;
+}
+.container .section1 h1 .a2{
+    color: black;
+    text-decoration: none;
+    cursor: text;
+    background-color: white;
+    padding: 0px 50px;
+    border-radius: 30px;
+
+}
+.container .section2{
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 30px 30px;
+}
+.container .section2 h1{
+    text-align: left;
+    width: 15%;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 100%;
+    margin-top: 80px;
+}
+.container .section2 p{
+    margin-top: 30px;
+    width: 15%;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px){
+    .container .section1 h1{
+        text-align: center;
+        font-size: 90px;
+        padding: 30px 18%;
+        font-weight: 400;
+        line-height: 130%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .container .section1 h1{
+        text-align: center;
+        font-size: 85px;
+        padding: 30px 15%;
+        font-weight: 400;
+        line-height: 130%;
+    }
+    .container .section2 p{
+        margin-top: 30px;
+        width: 18%;
+        font-size: 16px;
+        font-weight: 400;
+    
+    }
+}
+@media screen and (max-width: 1150px){
+    .container .section1 h1{
+        text-align: center;
+        font-size: 80px;
+        padding: 30px 15%;
+        font-weight: 400;
+        line-height: 130%;
+    }
+}
+@media screen and (max-width: 1100px){
+    .container .section1 h1{
+        text-align: center;
+        font-size: 80px;
+        padding: 30px 13%;
+        font-weight: 400;
+        line-height: 130%;
+    }
+    .container .section2 h1{
+        text-align: left;
+        width: 15%;
+        font-weight: 500;
+        font-size: 33px;
+        line-height: 100%;
+        margin-top: 80px;
+    }
+    .container .section2 p{
+        margin-top: 28px;
+        width: 18%;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 1050px){
+    .container .section1 h1{
+        text-align: center;
+        font-size: 80px;
+        padding: 30px 12%;
+        font-weight: 400;
+        line-height: 130%;
+    }
+    .container .nav .ul{
+        gap: 25px;
+    }
+    .container .nav .login{
+        gap: 25px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .container .section2{
+        font-family: 'Barlow', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 30px 26px;
+    }
+    .container .section2 h1{
+        text-align: left;
+        width: 15%;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 100%;
+        margin-top: 80px;
+    }
+    .container .section2 p{
+        margin-top: 28px;
+        width: 20%;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .container .section1 h1{
+        text-align: center;
+        font-size: 78px;
+        padding: 30px 12%;
+        font-weight: 400;
+        line-height: 130%;
+    }
+}
+@media screen and (max-width: 950px){
+    .container .nav .ul{
+        gap: 20px;
+    }
+    .container .nav .login{
+        gap: 20px;
+    }
+    .container .nav{
+        padding: 18px 25px;
+    }
+}
+@media screen and (max-width: 900px){
+    .container .section2{
+        font-family: 'Barlow', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 30px 24px;
+    }
+    .container .section2 h1{
+        text-align: left;
+        width: 15%;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 100%;
+        margin-top: 70px;
+    }
+    .container .section2 p{
+        margin-top: 25px;
+        width: 21%;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .container .section1 h1{
+        text-align: center;
+        font-size: 75px;
+        padding: 30px 12%;
+        font-weight: 400;
+        line-height: 130%;
+    }
+    .container .nav .ul{
+        gap: 16px;
+    }
+    .container .nav .login{
+        gap: 16px;
+    }
+}
+@media screen and (max-width: 850px){
+    .container .section1 h1{
+        text-align: center;
+        font-size: 70px;
+        padding: 30px 12%;
+        font-weight: 400;
+        line-height: 130%;
+    }
+    .container .nav .ul{
+        gap: 14px;
+    }
+    .container .nav .login{
+        gap: 14px;
+    }
+}
+@media screen and (max-width: 800px){
+    .container .section2{
+        font-family: 'Barlow', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 30px 22px;
+    }
+    .container .section2 h1{
+        text-align: left;
+        width: 15%;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 100%;
+        margin-top: 65px;
+    }
+    .container .section2 p{
+        margin-top: 20px;
+        width: 21%;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .container .section1 h1{
+        text-align: center;
+        font-size: 68px;
+        padding: 30px 10%;
+        font-weight: 400;
+        line-height: 130%;
+    }
+    .container .nav .ul{
+        gap: 12px;
+    }
+    .container .nav .login{
+        gap: 12px;
+    }
+    .container .nav{
+        padding: 15px 20px;
+    }
+    .container .nav .login .sign{
+        padding: 10px 25px;
+    }
+}
+@media screen and (max-width: 750px){
+    .container .section1 h1{
+        text-align: center;
+        font-size: 65px;
+        padding: 30px 9%;
+        font-weight: 400;
+        line-height: 130%;
+    }
+    .container .nav .ul{
+        gap: 10px;
+    }
+    .container .nav .login{
+        gap: 10px;
+    }
+    .container .nav .login .log{
+        font-size: 14px;
+    }
+    .container .nav .login .sign{
+        font-size: 14px
+    }
+    .container .nav .ul a{
+        font-size: 14px;
+    }
+    .container .nav .ul a i{
+        font-size: 18px;
+    }
+    .container .nav .logo{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 700px){
+    .container .section2{
+        font-family: 'Barlow', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 30px 20px;
+    }
+    .container .section2 h1{
+        text-align: left;
+        width: 15%;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 100%;
+        margin-top: 55px;
+    }
+    .container .section2 p{
+        margin-top: 18px;
+        width: 22%;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .container .section1 h1{
+        text-align: center;
+        font-size: 62px;
+        padding: 25px 8%;
+        font-weight: 400;
+        line-height: 130%;
+    }
+    .container .section1 h1 .a2{
+        padding: 0px 40px;
+        border-radius: 30px;
+    }
+    .container .nav{
+        padding: 12px 18px;
+    }
+}
+@media screen and (max-width: 650px){
+    .container .section2 p{
+        margin-top: 20px;
+        width: 23%;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .container .section1 h1{
+        text-align: center;
+        font-size: 58px;
+        padding: 25px 8%;
+        font-weight: 400;
+        line-height: 130%;
+        padding-top: 20px;
+    }
+    .container .section1 h1 .a2{
+        padding: 0px 35px;
+        border-radius: 30px;
+    }
+    .container .nav .ul{
+        gap: 8px;
+    }
+    .container .nav .login{
+        gap: 8px;
+    }
+}
+@media screen and (max-width: 600px){
+    .container .section2{
+        font-family: 'Barlow', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 30px 18px;
+    }
+    .container .section2 h1{
+        text-align: left;
+        width: 15%;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 100%;
+        margin-top: 40px;
+    }
+    .container .section2 p{
+        margin-top: 18px;
+        width: 24%;
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .container .section1 h1{
+        text-align: center;
+        font-size: 52px;
+        padding: 25px 8%;
+        font-weight: 400;
+        line-height: 130%;
+        padding-top: 15px;
+    }
+    .container .section1 h1 .a2{
+        padding: 0px 30px;
+        border-radius: 30px;
+    }
+    .container .nav .login .sign{
+        display: none;
+    }
+    .container .nav .login .log{
+        font-size: 14px;
+        padding: 10px 25px;
+        background-color: rgb(33, 0, 65);
+        border-radius: 20px;
+        color: white;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 550px){
+    .container .section2 p{
+        margin-top: 18px;
+        width: 26%;
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .container .section1 h1{
+        text-align: center;
+        font-size: 50px;
+        padding: 25px 8%;
+        font-weight: 400;
+        line-height: 130%;
+        padding-top: 10px;
+    }
+    .container .nav{
+        padding: 10px 16px;
+    }
+    .container .nav .ul{
+        gap: 8px;
+    }
+}
+@media screen and (max-width: 500px){
+    .container .section2{
+        font-family: 'Barlow', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 30px 15px;
+    }
+    .container .section2 h1{
+        text-align: left;
+        width: 15%;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        margin-top: 30px;
+    }
+    .container .section2 p{
+        margin-top: 15px;
+        width: 26%;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .container .section1 h1{
+        text-align: center;
+        font-size: 45px;
+        padding: 25px 7%;
+        font-weight: 400;
+        line-height: 130%;
+        padding-top: 10px;
+    }
+    .container .nav .ul{
+        display: none;
+    }
+    .container .nav .login .i{
+        display: flex;
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 450px){
+    .container .section2 h1{
+        text-align: left;
+        width: 15%;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        margin-top: 20px;
+    }
+    .container .section2 p{
+        margin-top: 15px;
+        width: 29%;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .container .section1 h1{
+        text-align: center;
+        font-size: 45px;
+        padding: 25px 2%;
+        font-weight: 400;
+        line-height: 130%;
+        padding-top: 8px;
+    }
+    .container .section1 h1 .a2{
+        padding: 0px 25px;
+        border-radius: 30px;
+    }
+    .container .nav{
+        padding: 8px 14px;
+    }
+}
+@media screen and (max-width: 400px){
+    .container .section2{
+        font-family: 'Barlow', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 30px 12px;
+    }
+    .container .section2 p{
+        margin-top: 10px;
+        width: 33%;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .container .section1 h1{
+        text-align: center;
+        font-size: 40px;
+        padding: 25px 2%;
+        font-weight: 400;
+        line-height: 130%;
+        padding-top: 8px;
+    }
+    .container .section1 h1 .a2{
+        padding: 0px 25px;
+        border-radius: 30px;
+    }
+    .container .nav .login{
+        gap: 5px;
+    }
+    .container .nav .login .log{
+        font-size: 14px;
+        padding: 8px 25px;
+        background-color: rgb(33, 0, 65);
+        border-radius: 20px;
+        color: white;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 350px){
+    .container .section2 h1{
+        text-align: left;
+        width: 15%;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        margin-top: 5px;
+    }
+    .container .section2 p{
+        margin-top: 9px;
+        width: 30%;
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .container .section1 h1{
+        text-align: center;
+        font-size: 34px;
+        padding: 25px 2%;
+        font-weight: 400;
+        line-height: 130%;
+        padding-top: 8px;
+    }
+    .container .section1 h1 .a2{
+        padding: 0px 20px;
+        border-radius: 30px;
+    }
+    .container .nav .login .i{
+        display: flex;
+        font-size: 25px;
+    }
+    .container .nav .logo{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 300px){
+    .container .section2{
+        font-family: 'Barlow', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 30px 10px;
+    }
+    .container .section2 h1{
+        text-align: left;
+        width: 15%;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+    }
+    .container .section2 p{
+        margin-top: 9px;
+        width: 34%;
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .container .section1 h1{
+        text-align: center;
+        font-size: 26px;
+        padding: 25px 7%;
+        font-weight: 400;
+        line-height: 130%;
+        padding-top: 8px;
+    }
+    .container .section1 h1 .a2{
+        padding: 0px 20px;
+        border-radius: 30px;
+    }
+    .container .nav .login .log{
+        font-size: 14px;
+        padding: 6px 20px;
+        background-color: rgb(33, 0, 65);
+        border-radius: 20px;
+        color: white;
+        font-weight: 400;
+    }
+}
